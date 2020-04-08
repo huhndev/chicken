@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+<section id=content>
+  <ul class=posts_listing>
+    {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+      {{ if (not .Params.nodate) }}
+        <div id="posts">
+          <div id=date class="date-time-title">
+            <time>{{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}</time>
+          </div>
+          <div class="date-time-title post">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>
+
+{{ partial "footer.html" . }}

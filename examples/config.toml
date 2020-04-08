@@ -1,0 +1,25 @@
+baseURL = "https://huhn.dev/"
+title = "huhn.dev"
+theme = "chicken"
+
+disableLiveReload = true
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+
+enableRobotsTXT = true
+
+[permalinks]
+  blog = "/:title/"
+
+[params]
+  sitename = "huhn.dev"
+  #cv = "https://code.huhn.dev/huhn/cv.git"
+  tor = true
+
+[outputs]
+  home     = ["HTML"]
+  section  = ["HTML", "RSS"]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "rss"

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: CourierPrime;
+    src: url(/fonts/Courier_Prime.ttf);
+}
+
+@font-face {
+    font-family: CourierPrimeCode;
+    src: url(/fonts/Courier_Prime_Code.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: CourierPrime, Courier;
+    color: black;
+    margin: auto;
+    max-width: 50em;
+    height: 97%;
+    line-height: 1.5
+}
+
+code {
+    font-family: CourierPrimeCode, Courier;
+}
+
+#page-title {
+    text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   border-bottom: 2px solid #fc0;
+}
+
+a:hover, a:active, a:visited {
+    background-color:#fc0;
+}
+
+.date-time-title {
+    display: inline-block;
+}
+
+#posts {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.post {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.blog-post {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding-bottom: 2em;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 1em;
+    height: 1em;
+    text-align: center;
+}
+
+

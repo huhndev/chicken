@@ -1,0 +1,16 @@
+name = "Chicken"
+license = "MIT"
+licenselink = "https://code.huhn.dev/huhn/chicken/src/branch/master/LICENSE.md"
+description = "Minimal dev blog."
+homepage = "https://code.huhn.dev/huhn/chicken"
+tags = ["blog"]
+features = ["blog"]
+min_version = "0.53"
+
+[author]
+  name = "Julian Huhn"
+  homepage = "https://huhn.dev"
+
+[original]
+  name = "Benny Mei"
+  homepage = "https://gitlab.com/meibenny/elephants"
