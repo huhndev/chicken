@@ -5,8 +5,6 @@ theme = "chicken"
 disableLiveReload = true
 disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
 
-enableRobotsTXT = true
-
 [permalinks]
   blog = "/:title/"
 
