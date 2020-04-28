@@ -1,6 +1,6 @@
 name = "Chicken"
 license = "MIT"
-licenselink = "https://code.huhn.dev/huhn/chicken/src/branch/master/LICENSE.md"
+licenselink = "https://code.huhn.dev/huhn/chicken/src/branch/master/LICENSE"
 description = "Minimal dev blog."
 homepage = "https://code.huhn.dev/huhn/chicken"
 tags = ["blog"]
