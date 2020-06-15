@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
 [params]
   sitename = "huhn.dev"
   #cv = "https://code.huhn.dev/huhn/cv.git"
-  tor = true
+  tor_404 = true
 
 [outputs]
   home     = ["HTML"]
