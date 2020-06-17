@@ -10,6 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
 
 [params]
   sitename = "huhn.dev"
+  description = "A minimal dev blog by Julian Huhn about technical challenges as well as social and political issues."
   #cv = "https://code.huhn.dev/huhn/cv.git"
   tor_404 = true
 
