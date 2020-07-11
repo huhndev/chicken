@@ -9,7 +9,7 @@
             <time>{{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}</time>
           </div>
           <div class="date-time-title post">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </div>
         </div>
       {{ end }}
