@@ -1,19 +1,9 @@
-@font-face {
-    font-family: CourierPrime;
-    src: url(/fonts/Courier_Prime.ttf);
-}
-
-@font-face {
-    font-family: CourierPrimeCode;
-    src: url(/fonts/Courier_Prime_Code.ttf);
-}
-
 html {
     height: 100%;
 }
 
 body {
-    font-family: CourierPrime, Courier;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     margin: auto;
     max-width: 50em;
@@ -22,7 +12,7 @@ body {
 }
 
 code {
-    font-family: CourierPrimeCode, Courier;
+    font-family: "Courier New", Courier, monospace;
 }
 
 #page-title {
