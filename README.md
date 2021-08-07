@@ -11,7 +11,7 @@ Forked from [Elephants](https://gitlab.com/meibenny/elephants).
 ## Installation
 In the folder of your Hugo site, run:
 ```
-git submodule add https://code.huhn.dev/huhn/chicken.git themes/chicken
+git submodule add https://github.com/huhndev/chicken.git themes/chicken
 ```
 
 ## License
