@@ -4,8 +4,8 @@ html {
 
 body {
     font-family: "Courier New", Courier, monospace;
-    color: #FAF9F7;
-    background-color: #27241D;	
+    color: #E8E6E1;
+    background-color: #121212;	
     margin: auto;
     max-width: 50em;
     height: 97%;
@@ -22,7 +22,7 @@ code {
 
 a {
    text-decoration: none;
-   color: #FAF9F7;
+   color: #E8E6E1;
    border-bottom: 2px solid #FFB300;
 }
 
