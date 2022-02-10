@@ -4,7 +4,8 @@ html {
 
 body {
     font-family: "Courier New", Courier, monospace;
-    color: black;
+    color: #FAF9F7;
+    background-color: #27241D;	
     margin: auto;
     max-width: 50em;
     height: 97%;
@@ -21,12 +22,12 @@ code {
 
 a {
    text-decoration: none;
-   color: black;
-   border-bottom: 2px solid #fc0;
+   color: #FAF9F7;
+   border-bottom: 2px solid #FFB300;
 }
 
 a:hover, a:active, a:visited {
-    background-color:#fc0;
+    background-color: #FFB300;
 }
 
 .date-time-title {
