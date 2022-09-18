@@ -9,11 +9,12 @@ body {
     margin: auto;
     max-width: 50em;
     height: 97%;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 code {
     font-family: "Courier New", Courier, monospace;
+    color: #FFB300;
 }
 
 #page-title {
