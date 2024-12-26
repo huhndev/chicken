@@ -1,11 +1,11 @@
 name = "Chicken"
 license = "MIT"
-licenselink = "https://code.huhn.dev/huhn/chicken/src/branch/master/LICENSE"
+licenselink = "https://github.com/huhndev/chicken/blob/master/LICENSE"
 description = "Minimal dev blog."
-homepage = "https://code.huhn.dev/huhn/chicken"
+homepage = "https://github.com/huhndev/chicken"
 tags = ["blog"]
 features = ["blog"]
-min_version = "0.53"
+min_version = "0.139"
 
 [author]
   name = "Julian Huhn"
