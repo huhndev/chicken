@@ -2,18 +2,15 @@ baseURL = "https://huhn.dev/"
 title = "huhn.dev"
 theme = "chicken"
 
-disableLiveReload = true
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds = ["taxonomy", "sitemap"]
 
 [permalinks]
   blog = "/:title/"
 
 [params]
   sitename = "huhn.dev"
-  description = "A minimal dev blog by Julian Huhn about technical challenges as well as social and political issues."
-  #cv = "https://code.huhn.dev/huhn/cv.git"
-  tor_404 = true
-  onion = "http://sagfy7airfcarklc5xftpejt42yfkcj2gqzkpgd7wl7fafxrg2jcgoad.onion"
+  description = "A minimal dev blog by Julian Huhn."
+  #cv = "https://huhn.dev/cv"
 
 [outputs]
   home     = ["HTML"]
