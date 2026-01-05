@@ -18,7 +18,8 @@
     <link rel="alternate" charset="utf-8" type="application/rss+xml" href="/rss" title="{{ .Site.Title }}">
 
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="stylesheet" href="/css/stylesheet.css">
+    {{ $css := resources.Get "css/stylesheet.css" | minify }}
+    <style>{{ $css.Content | safeCSS }}</style>
   </head>
   <body>
     <a href="#content" class="skip-link">Skip to content</a>
