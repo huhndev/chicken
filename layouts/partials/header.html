@@ -13,7 +13,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
 
-    <title>{{.Title}}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
     <link rel="alternate" charset="utf-8" type="application/rss+xml" href="/rss" title="{{ .Site.Title }}">
 
