@@ -41,7 +41,7 @@ a:hover, a:active {
     display: inline-block;
 }
 
-#posts {
+.posts {
     padding-left: 2em;
     padding-right: 2em;
 }
