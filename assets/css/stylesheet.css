@@ -32,6 +32,11 @@ a:hover, a:active {
     color: #121212;
 }
 
+.posts_listing {
+    list-style: none;
+    padding: 0;
+}
+
 .date-time-title {
     display: inline-block;
 }
