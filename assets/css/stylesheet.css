@@ -61,19 +61,17 @@ blockquote {
 }
 
 #container {
-    min-height: 100%;
-    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #body {
-    padding-bottom: 2em;
+    flex: 1;
 }
 
 .footer {
-    position: absolute;
-    width: 100%;
-    bottom: 1em;
-    height: 1em;
+    padding: 1em 0;
     text-align: center;
 }
 
