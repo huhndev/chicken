@@ -21,8 +21,10 @@
     <link rel="stylesheet" href="/css/stylesheet.css">
   </head>
   <body>
+    <a href="#content" class="skip-link">Skip to content</a>
     <div id="container">
     <div id="body">
-      <section id="page-title">
+      <header id="page-title">
         <h1><a href="/">{{ .Site.Params.sitename | default "chicken"}}</a></h1>
-      </section>
+      </header>
+      <main id="content">
