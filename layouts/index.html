@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<section id=content>
+<section>
   <ul class=posts_listing>
     {{ range .Site.RegularPages.ByPublishDate.Reverse }}
       {{ if (not .Params.nodate) }}
