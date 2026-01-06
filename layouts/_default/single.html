@@ -12,7 +12,7 @@
   "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ .Site.Params.description | jsonify }}{{ end }},
   "author": {
     "@type": "Person",
-    "name": {{ .Site.Params.author | jsonify }}
+    "name": {{ .Site.Params.author.name | jsonify }}
   }
 }
 </script>
