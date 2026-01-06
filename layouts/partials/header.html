@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if .Site.Params.cloudflare }}
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src https://cloudflareinsights.com">
+    {{ else }}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'">
+    {{ end }}
     <meta name="referrer" content="no-referrer">
     {{ $desc := .Description | default .Site.Params.description }}
     <meta name="description" content="{{ $desc }}">
@@ -16,7 +20,7 @@
 
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
-    <link rel="preconnect" href="https://static.cloudflareinsights.com">
+    {{ with .Site.Params.cloudflare }}<link rel="preconnect" href="https://static.cloudflareinsights.com">{{ end }}
     <link rel="alternate" charset="utf-8" type="application/rss+xml" href="/rss" title="{{ .Site.Title }}">
 
     <link rel="canonical" href="{{ .Permalink }}">
