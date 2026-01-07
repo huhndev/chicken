@@ -1,16 +1,28 @@
-baseURL = "https://huhn.dev/"
-title = "huhn.dev"
+baseURL = "https://example.org/"
+title = "My Blog"
 theme = "chicken"
+languageCode = "en"
 
-disableKinds = ["taxonomy", "sitemap"]
+disableKinds = ["taxonomy", "term"]
+
+[minify]
+  minifyOutput = true
 
 [permalinks]
   blog = "/:title/"
 
 [params]
-  sitename = "huhn.dev"
-  description = "A minimal dev blog by Julian Huhn."
-  #cv = "https://huhn.dev/cv"
+  description = "A minimal blog powered by the Chicken theme."
+  rssUrl = "/rss"
+  # Footer links (omit to hide)
+  about = "/about/"
+  contact = "/contact/"
+  #cv = "/cv/"
+  now = "/now/"
+
+[params.author]
+  name = "Jane Doe"
+  email = "jane@example.org"
 
 [outputs]
   home     = ["HTML"]
