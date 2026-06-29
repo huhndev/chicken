@@ -3,8 +3,6 @@
 A minimal Hugo theme for dev blogs.
 Forked from [Elephants](https://gitlab.com/meibenny/elephants).
 
-Example: [www.huhn.dev](https://www.huhn.dev)
-
 ## Features
 * No JavaScript
 * No Third Partys
